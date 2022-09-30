@@ -178,4 +178,26 @@ entries:
     urls:
     - https://github.com/oloski/cloudlab-repository3/releases/download/mongodb-1.5.0/mongodb-1.5.0.tgz
     version: 1.5.0
-generated: "2022-09-30T14:20:21.180941848Z"
+  neo4j:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-09-30T14:20:36.574665738Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.0.20
+    description: Neo4j is a graph database management system developed by Neo4j, Inc.
+      Described by its developers as an ACID-compliant transactional database with
+      native graph storage and processing.
+    digest: 964342175c91af21cad2fb9e78c294073753f4c199c3dba60ad5c251c9238c4f
+    home: https://neo4j.com/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/neo4j.png
+    name: neo4j
+    sources:
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/neo4j
+    - https://github.com/neo4j/docker-neo4j-publish
+    type: application
+    urls:
+    - https://github.com/oloski/cloudlab-repository3/releases/download/neo4j-3.2.1/neo4j-3.2.1.tgz
+    version: 3.2.1
+generated: "2022-09-30T14:20:36.574694739Z"
