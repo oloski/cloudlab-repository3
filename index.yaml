@@ -200,4 +200,27 @@ entries:
     urls:
     - https://github.com/oloski/cloudlab-repository3/releases/download/neo4j-3.2.1/neo4j-3.2.1.tgz
     version: 3.2.1
-generated: "2022-09-30T14:20:36.574694739Z"
+  pgadmin:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-09-30T14:20:53.312830632Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.0.20
+    description: pgAdmin is the most popular and feature rich Open Source administration
+      and development platform for PostgreSQL, the most advanced Open Source database
+      in the world.
+    digest: dfbc15919b5addef593cb56e3acff37768913d02990e6654f8317bc02b3e6058
+    home: https://www.pgadmin.org/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/post.png
+    keywords:
+    - SQL
+    name: pgadmin
+    sources:
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/pgadmin
+    type: application
+    urls:
+    - https://github.com/oloski/cloudlab-repository3/releases/download/pgadmin-3.2.1/pgadmin-3.2.1.tgz
+    version: 3.2.1
+generated: "2022-09-30T14:20:53.312839532Z"
