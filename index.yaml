@@ -299,4 +299,28 @@ entries:
     urls:
     - https://github.com/oloski/cloudlab-repository3/releases/download/superset-1.1.1/superset-1.1.1.tgz
     version: 1.1.1
-generated: "2022-09-30T14:21:45.643590139Z"
+  trino:
+  - apiVersion: v2
+    appVersion: "355"
+    created: "2022-09-30T14:22:02.764824698Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.0.20
+    description: Fast distributed SQL query engine for big data analytics
+    digest: a52ea2b469bd8e97889fae44d606f56b7b45e8c95d4c508365be11bfa765da3e
+    home: https://trino.io/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/trino.png
+    keywords:
+    - SQL
+    - distributed
+    - python
+    name: trino
+    sources:
+    - https://github.com/trinodb/charts
+    - https://github.com/trinodb/trino/tree/master/core/docker
+    type: application
+    urls:
+    - https://github.com/oloski/cloudlab-repository3/releases/download/trino-3.2.1/trino-3.2.1.tgz
+    version: 3.2.1
+generated: "2022-09-30T14:22:02.7648482Z"
