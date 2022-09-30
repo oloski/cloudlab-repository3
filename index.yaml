@@ -40,6 +40,33 @@ entries:
     urls:
     - https://github.com/oloski/cloudlab-repository3/releases/download/jena-3.1.1/jena-3.1.1.tgz
     version: 3.1.1
+  jupyter:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-09-30T14:19:09.454725313Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.1.0
+    description: Jupyter is a notebook accessible through a web browser. You can use
+      it for Python and Spark.
+    digest: 90aba732bd57aee84d6474a091c67eb643304ea0e4f3fac1ed18ddef79fc3514
+    home: https://jupyter.org/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/jupyter.png
+    keywords:
+    - Hadoop
+    - Spark
+    - Python
+    - Jupyter
+    name: jupyter
+    sources:
+    - https://github.com/InseeFrLab/jupyter-datascience
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/jupyter
+    - https://github.com/jupyter/docker-stacks
+    type: application
+    urls:
+    - https://github.com/oloski/cloudlab-repository3/releases/download/jupyter-6.4.4/jupyter-6.4.4.tgz
+    version: 6.4.4
   mlflow:
   - apiVersion: v2
     appVersion: "1"
@@ -65,4 +92,4 @@ entries:
     urls:
     - https://github.com/oloski/cloudlab-repository3/releases/download/mlflow-3.3.3/mlflow-3.3.3.tgz
     version: 3.3.3
-generated: "2022-09-30T14:18:58.353612872Z"
+generated: "2022-09-30T14:19:09.454898316Z"
