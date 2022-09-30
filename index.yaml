@@ -323,4 +323,24 @@ entries:
     urls:
     - https://github.com/oloski/cloudlab-repository3/releases/download/trino-3.2.1/trino-3.2.1.tgz
     version: 3.2.1
-generated: "2022-09-30T14:22:02.7648482Z"
+  ubuntu:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-09-30T14:22:19.506472484Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.1.0
+    description: Ubuntu with a graphical user interface.
+    digest: 80a1e852707cf0deacdca5bb39fffc03aa91e5cfc67a6437d942369448069aae
+    home: https://www.ubuntu-fr.org/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/ubuntu.png
+    name: ubuntu
+    sources:
+    - https://github.com/InseeFrLab/ubuntu-vnc
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/ubuntu
+    type: application
+    urls:
+    - https://github.com/oloski/cloudlab-repository3/releases/download/ubuntu-5.2.1/ubuntu-5.2.1.tgz
+    version: 5.2.1
+generated: "2022-09-30T14:22:19.506481084Z"
