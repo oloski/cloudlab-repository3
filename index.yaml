@@ -223,4 +223,29 @@ entries:
     urls:
     - https://github.com/oloski/cloudlab-repository3/releases/download/pgadmin-3.2.1/pgadmin-3.2.1.tgz
     version: 3.2.1
-generated: "2022-09-30T14:20:53.312839532Z"
+  postgresql:
+  - apiVersion: v2
+    appVersion: "1"
+    created: "2022-09-30T14:21:12.705590084Z"
+    dependencies:
+    - enabled: true
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.0.3
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-datascience
+      version: 2.0.20
+    description: An object-relational database management system, a database server
+    digest: 61681afd41338b0ae5566d08ad79e2665fad7de3a929e9c5012f4a95b03bb13e
+    home: https://www.postgresql.org/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/post.png
+    name: postgresql
+    sources:
+    - https://github.com/InseeFrLab/helm-charts-datascience/tree/master/charts/postgresql
+    - https://github.com/bitnami/charts/tree/master/bitnami/postgresql
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    type: application
+    urls:
+    - https://github.com/oloski/cloudlab-repository3/releases/download/postgresql-3.4.0/postgresql-3.4.0.tgz
+    version: 3.4.0
+generated: "2022-09-30T14:21:12.705631885Z"
